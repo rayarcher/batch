@@ -2,8 +2,8 @@
 setlocal
 SET mypath=%~dp0
 echo %mypath:~0,-1%
-set sourcedir=%mypath:~0,-1%\Bginfo
-set destinationdir=c:\deploys\Bginfo
+set sourcedir=%mypath:~0,-1%\regfiles
+set destinationdir=c:\deploys\regfiles
 echo This file:
 Echo Copy Bginfo folder from  %sourcedir% to %destinationdir% and add autorun registry record to all users
 Echo owerwrite all files in destination folder
@@ -12,8 +12,8 @@ goto :begin
 :action
     echo Action here
     copy %sourcedir%\*.* %destinationdir%\*.*
-    reg import %destinationdir%\Autorun_bginfo.reg
-    start C:\Bginfo\Bginfo64.exe C:\Bginfo\default.bgi /accepteula /silent /timer:0
+    REM reg import %destinationdir%\network_trust_zone.reg
+    REM reg import %destinationdir%\tvncdesktop.reg
     exit /b
 goto :eof
 :nopath
