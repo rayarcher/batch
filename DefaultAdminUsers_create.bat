@@ -6,16 +6,16 @@
 	powershell -Command "rm -force c:\secpol.cfg -confirm:$false"
 	rem del /F /S /Q c:\secpol.cfg
 net accounts /MaxPWAge:unlimited
-net user archer gluckomania /add /expires:never /FULLNAME:"‘«γ¦¥΅­ ο γη¥β­ ο § ―¨αμ"
+net user archer * /add /expires:never /FULLNAME:"β€Β«Γ£Β¦Β¥Β΅Β­Β Γ― Γ£Γ§Β¥ΓΆΒ­Β Γ― Β§Β Β―Β¨Γ΅Γ¬"
 net localgroup Administrators archer /add
-net localgroup €¤¬¨­¨αβΰ β®ΰλ archer /add
+net localgroup β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ Γ« archer /add
 net localgroup Users archer /delete
-net localgroup ®«μ§®Ά β¥«¨ archer /delete
+net localgroup ΒΒ®Β«Γ¬Β§Β®ΒΆΒ ΓΆΒ¥Β«Β¨ archer /delete
 net user archer /Expires:Never
 
-net user support support /add /expires:never /FULLNAME:"‘«γ¦¥΅­ ο support"
+net user support * /add /expires:never /FULLNAME:"β€Β«Γ£Β¦Β¥Β΅Β­Β Γ― support"
 net localgroup Administrators support /add
-net localgroup €¤¬¨­¨αβΰ β®ΰλ support /add
+net localgroup β‚¬Β¤Β¬Β¨Β­Β¨Γ΅ΓΆΓ Β ΓΆΒ®Γ Γ« support /add
 net localgroup Users support /delete
-net localgroup ®«μ§®Ά β¥«¨ support /delete
+net localgroup ΒΒ®Β«Γ¬Β§Β®ΒΆΒ ΓΆΒ¥Β«Β¨ support /delete
 net user support /Expires:Never
