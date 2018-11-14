@@ -1,0 +1,1 @@
+rem start /wait \\APPSOFT\Notepad_Plus\npp.7.5.Installer.x64.exe /S
