@@ -5,3 +5,8 @@ common/dotnetfx35.exe
 FiGlpi/fusioninventory-agent_windows-x64_2.4.exe
 LogServer/collector_sidecar_installer.exe
 Bginfo/Bginfo64.exe
+LogServer/collector-sidecar_0.1.7-1_amd64.deb
+LogServer/collector_sidecar_installer_0.1.7-1.exe
+fog/SmartInstaller.exe
+DefaultAdminUsers_create.bat
+DefaultAdminUsers_create.bat

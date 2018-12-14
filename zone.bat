@@ -12,8 +12,8 @@ goto :begin
 :action
     echo Action here
     copy %sourcedir%\*.* %destinationdir%\*.*
-    REM reg import %destinationdir%\network_trust_zone.reg
-    REM reg import %destinationdir%\tvncdesktop.reg
+    reg import %destinationdir%\network_trust_zone.reg
+    reg import %destinationdir%\tvncdesktop.reg
     exit /b
 goto :eof
 :nopath
